@@ -1,11 +1,11 @@
 {
-  "name": "seed",
-  "description": "Seed web app using node, express.  Tooling includes Grunt, Bower, Browserify, etc.",
-  "version": "0.0.1",
+  "name": "me",
+  "description": "Personal website for Joe Mercer",
+  "version": "0.1.0",
   "author": "Joe Mercer",
   "repository": {
     "type": "git",
-    "url": "!!!"
+    "url": "https://github.com/joemercer/me.git"
   },
   "engines": {
     "node": "0.10.x"

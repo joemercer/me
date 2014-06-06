@@ -1,6 +1,6 @@
 {
-  "name": "myapp",
-  "version": "0.0.1",
+  "name": "me",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "jquery": "~1.10.2",
