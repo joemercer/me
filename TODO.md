@@ -1,15 +1,14 @@
 # TODO
 ________
 
-- edit the README !!!
+- don't really like the font on the slow scroll links
+- don't really like the effect on the slow scroll links
 
 # Backlog
 ___________
 
 - posts
 - pics
-- don't really like the font on the slow scroll links
-- don't really like the effect on the slow scroll links
 - add some margin top to the side in the sections
 - img-circle css not working on first page load
 
