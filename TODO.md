@@ -3,6 +3,7 @@ ________
 
 - don't really like the font on the slow scroll links
 - don't really like the effect on the slow scroll links
+- title @jomrcr
 
 # Backlog
 ___________
