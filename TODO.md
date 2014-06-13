@@ -3,6 +3,12 @@ ________
 
 - footer is broken on mobile
 
+- point to joemercer.com
+- figure out DNS stuff
+
+- take down old joemercer.github.io site (and point it to this site?)
+- - it's confusing to have two personal websites
+
 - take off hover-img effect until we have Pics section
 - hover effects don't happen on mobile so implement some way of seeing the effect
 - - like the horizontal effect takes place line
