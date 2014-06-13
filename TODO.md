@@ -1,8 +1,6 @@
 # TODO
 ________
 
-- footer is broken on mobile
-
 - point to joemercer.com
 - figure out DNS stuff
 
@@ -15,7 +13,8 @@ ________
 
 - don't really like the font on the slow scroll links
 - don't really like the effect on the slow scroll links
-- title @jomrcr
+
+- don't like how big footer is
 
 # Backlog
 ___________
