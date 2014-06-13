@@ -1,6 +1,12 @@
 # TODO
 ________
 
+- footer is broken on mobile
+
+- take off hover-img effect until we have Pics section
+- hover effects don't happen on mobile so implement some way of seeing the effect
+- - like the horizontal effect takes place line
+
 - don't really like the font on the slow scroll links
 - don't really like the effect on the slow scroll links
 - title @jomrcr
