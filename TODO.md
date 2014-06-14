@@ -4,6 +4,8 @@ ________
 - point to joemercer.com
 - figure out DNS stuff
 
+- set up google analytics (and add to static-seed)
+
 - take down old joemercer.github.io site (and point it to this site?)
 - - it's confusing to have two personal websites
 
