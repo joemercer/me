@@ -1,6 +1,8 @@
 # TODO
 ________
 
+- spacing of splash is off for mobile (content needs to be higher up)
+
 - point to joemercer.com
 - figure out DNS stuff
 
