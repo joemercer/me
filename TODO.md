@@ -1,6 +1,12 @@
 # TODO
 ________
 
+- fix naming convention for index index.less
+
+- combine google font requests
+
+- clean up styles folder
+
 - spacing of splash is off for mobile (content needs to be higher up)
 
 - point to joemercer.com
