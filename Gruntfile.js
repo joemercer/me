@@ -213,7 +213,7 @@ module.exports = function(grunt) {
     'compile-handlebars': {
       dev: {
         template: 'client/pages/**/*.hbs',
-        templateData: 'client/templates/views/**/*.json',
+        templateData: 'client/pages/**/*.json',
         output: 'public/**/*.html',
         //helpers: 'client/templates/helpers/**/*.js',
         //partials: 'client/templates/partials/**/*.hbs',
@@ -223,7 +223,7 @@ module.exports = function(grunt) {
       },
       prod: {
         template: 'client/pages/**/*.hbs',
-        templateData: 'client/templates/views/**/*.json',
+        templateData: 'client/pages/**/*.json',
         output: 'dist/**/*.html',
         //helpers: 'client/templates/helpers/**/*.js',
         //partials: 'client/templates/partials/**/*.hbs',
