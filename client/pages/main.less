@@ -1,0 +1,34 @@
+// Main less file
+// this file imports all the other less files
+// --------------------------------------------------
+
+// Path to styles
+@styles: "../styles/less";
+
+// Path to modules
+@requires: "../requires";
+
+// Bootstrap path
+@bootstrap: "@{requires}/bootstrap-less/less";
+
+// Font-Awesome path
+@font-awesome: "@{requires}/fontawesome/less";
+
+// Core variables and mixins
+@import "@{bootstrap}/variables.less";
+@import "@{bootstrap}/mixins.less";
+
+// Custom variables
+@import "@{styles}/custom-variables.less";
+
+// Golden (overrides Bootstrap variables)
+@import "@{styles}/golden.less";
+
+// Custom Bootstrap
+@import "@{styles}/custom-bootstrap.less";
+
+// Font-Awesome
+@import "@{font-awesome}/font-awesome.less";
+
+// Custom styles
+@import "@{styles}/styles.less";

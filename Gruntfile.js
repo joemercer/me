@@ -13,18 +13,14 @@ module.exports = function(grunt) {
   var ops = {
 
     // output filenames:
-    // styles.css
     // main.js
     name: {
-      css: 'styles',
       js: 'main'
     },
 
     // input filenames:
-    // main.less imports the rest of the less files
     // main.js requires the rest of the javascript files
     src: {
-      css: 'main',
       js: 'main'
     },
 
@@ -33,7 +29,6 @@ module.exports = function(grunt) {
 
     // options for built directory naming
     built: {
-      css: 'built-styles',
       js: 'app.browserify',
       test: 'tests.browserify'
     }
@@ -47,7 +42,7 @@ module.exports = function(grunt) {
     // deletes files
     clean: {
       scripts: ['public/js'],
-      styles: ['public/css', 'build/<%= ops.built.css %>.css'],
+      styles: ['public/css'],
       templates: ['public/**/*.html'],
       img: ['public/img'],
       dev: {
@@ -63,12 +58,6 @@ module.exports = function(grunt) {
         files: [{
           src: 'build/<%= ops.built.js %>.js',
           dest: 'public/js/<%= ops.name.js %>.js'
-        }]
-      },
-      styles: {
-        files: [{
-          src: 'build/<%= ops.built.css %>.css',
-          dest: 'public/css/<%= ops.name.css %>.css'
         }]
       },
       fonts: {
@@ -97,9 +86,6 @@ module.exports = function(grunt) {
         files: [{
           src: 'build/<%= ops.built.js %>.js',
           dest: 'public/js/<%= ops.name.js %>.js'
-        }, {
-          src: 'build/<%= ops.built.css %>.css',
-          dest: 'public/css/<%= ops.name.css %>.css'
         },
         {
           expand: true,
@@ -199,12 +185,26 @@ module.exports = function(grunt) {
 
     // compiles less files to css files
     less: {
-      transpile: {
-        files: {
-          'build/<%= ops.built.css %>.css': [
-            'client/styles/less/main.less'
-          ]
-        }
+      dev: {
+        files: [{
+          expand: true,
+          cwd: 'client/pages',
+          src: ['**/*.less'],
+          dest: 'public',
+          ext: '.css'
+        }]
+      },
+      prod: {
+        options: {
+          cleancss: true
+        },
+        files: [{
+          expand: true,
+          cwd: 'client/pages',
+          src: ['**/*.less'],
+          dest: 'dist',
+          ext: '.css'
+        }]
       }
     },
 
@@ -230,15 +230,6 @@ module.exports = function(grunt) {
         globals: [
           'client/data/global.json'
         ]
-      }
-    },
-
-    // css minification
-    // puts the file in /dist
-    cssmin: {
-      minify: {
-        src: ['build/<%= ops.built.css %>.css'],
-        dest: 'dist/css/<%= ops.name.css %>.css'
       }
     },
 
@@ -368,9 +359,9 @@ module.exports = function(grunt) {
   // 2. builds assets
   // 3. copies assets to /public
   // TODO(joe) consider not copying over images and other large files
-  grunt.registerTask('build:dev', ['clean:dev', 'browserify:app', 'browserify:test', 'jshint:dev', 'less:transpile', 'compile-handlebars:dev', 'copy:dev']);
+  grunt.registerTask('build:dev', ['clean:dev', 'browserify:app', 'browserify:test', 'jshint:dev', 'less:dev', 'compile-handlebars:dev', 'copy:dev']);
   // builds prod
-  grunt.registerTask('build:prod', ['clean:prod', 'browserify:app', 'jshint:all', 'less:transpile', 'compile-handlebars:prod', 'cssmin', 'uglify', 'copy:prod']);
+  grunt.registerTask('build:prod', ['clean:prod', 'browserify:app', 'jshint:all', 'less:prod', 'compile-handlebars:prod', 'uglify', 'copy:prod']);
 
   // builds dev then starts the server
   grunt.registerTask('server', ['build:dev', 'concurrent:dev']);

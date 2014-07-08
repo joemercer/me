@@ -1,1 +1,120 @@
-resume.less
+// // Custom Bootstrap
+// // _________
+
+// // Core variables and mixins
+// @import "../libs/bootstrap/less/variables.less";
+// @import "../libs/bootstrap/less/mixins.less";
+
+// // Custom Variables
+// @import "custom-resume-variables.less";
+
+// // Reset
+// @import "../libs/bootstrap/less/normalize.less";
+// @import "../libs/bootstrap/less/print.less";
+
+// // Core CSS
+// @import "../libs/bootstrap/less/scaffolding.less";
+// @import "../libs/bootstrap/less/type.less";
+// // @import "../libs/bootstrap/less/code.less";
+// @import "../libs/bootstrap/less/grid.less";
+// // @import "../libs/bootstrap/less/tables.less";
+// // @import "../libs/bootstrap/less/forms.less";
+// // @import "../libs/bootstrap/less/buttons.less";
+
+// // Utility classes
+// @import "../libs/bootstrap/less/utilities.less";
+// @import "../libs/bootstrap/less/responsive-utilities.less";
+
+// // Golden
+// // ______
+
+// @import "../libs/golden/variables.less";
+// @import "../libs/golden/mixins.less";
+
+// @import "../libs/golden/content.less";
+// @import "../libs/golden/grid.less";
+
+// @import "../libs/golden/bootstrap-variable-overrides.less";
+
+#contact {
+	h1 {
+		margin-top: @golden-line-height-computed;
+		margin-bottom: @golden-line-height-computed / 2;
+	}
+}
+
+.contact-options {
+	margin-bottom: @golden-line-height-computed / 2;
+}
+
+.contact-option {
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+
+	color: @golden-gray-light;
+}
+
+h1.name {
+	display: block;
+}
+
+a.twitter {
+	display: inline-block;
+	font-size: @golden-font-size-base;
+	font-weight: normal;
+	padding-left: 0px;
+}
+
+@media (min-width: (@screen-sm-min * (3 / 4))) {
+	.contact-option {
+		display: inline-block;
+		padding-left: @golden-line-height-computed / 4;
+		padding-right: @golden-line-height-computed / 4;
+	}
+	h1.name {
+		display: inline-block;
+	}
+	a.twitter {
+		font-size: @golden-font-size-h3;
+		font-weight: bold;
+		padding-left: @golden-line-height-computed / 2;
+	}
+}
+
+.sidebar {
+	color: @golden-gray-dark;
+}
+
+@media (min-width: @screen-sm-min) {
+	.sidebar {
+		text-align: right;
+	}
+}
+
+.summary-dl {
+	padding-bottom: @golden-line-height-computed / 4;
+}
+
+.summary-dt {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.464;
+}
+.summary-dd {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1.464;
+}
+
+
+
+hr {
+	margin-top: @golden-line-height-computed / 2;
+	margin-bottom: @golden-line-height-computed / 2;
+}
+
+
+
+
+
