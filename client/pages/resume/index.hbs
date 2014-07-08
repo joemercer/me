@@ -22,7 +22,7 @@
   </head>
   <body>
 
-    <header id="header">
+    {{!-- <header id="header">
       <div class="trim-color-block yellow-back"></div>
       <div class="trim-color-block amber-back"></div>
       <div class="trim-color-block orange-back"></div>
@@ -42,11 +42,11 @@
           <a href="{{joe.twitter.href}}" target="_blank" class="hover-link"><i class="fa fa-twitter"></i></a>
         </div>
       </div>
-    </header>
+    </header> --}}
 
     <div id="content" class="container">
 
-      <section id="contact">
+      <section id="contact" class="row">
         <h1 class="name">{{contact.info.name}}</h1>
         <a href="{{contact.info.twitter.href}}" target="_blank" class="twitter">{{contact.info.twitter.label}}</a>
         <div class="contact-options">
@@ -62,7 +62,7 @@
         </div>
       </section>
 
-      <section id="summary">
+      <section id="summary" class="row">
         {{#each summary.entries}}
           <div class="row summary-dl">
             <div class="col-sm-5 sidebar">
@@ -157,13 +157,13 @@
 
     </div>
 
-    <footer id="footer">
+    {{!-- <footer id="footer">
       <div class="footer container text-right">
         <span>Made by <a href="{{joe.twitter.href}}" target="_blank">@jomrcr</a> in New York City</span>
         <a><img src="fonts/logo.png" class="footer-icon-image scroll-to" data-scroll-target="#intro"/></a>
       </div>
-    </footer>
+    </footer> --}}
 
-    <script type="text/javascript" src="js/main.js"></script>
+    {{!-- <script type="text/javascript" src="js/main.js"></script> --}}
   </body>
 </html>
