@@ -212,7 +212,7 @@ module.exports = function(grunt) {
     // TODO(joe) check this for helpers and partials
     'compile-handlebars': {
       dev: {
-        template: 'client/templates/views/**/*.hbs',
+        template: 'client/pages/**/*.hbs',
         templateData: 'client/templates/views/**/*.json',
         output: 'public/**/*.html',
         //helpers: 'client/templates/helpers/**/*.js',
@@ -222,7 +222,7 @@ module.exports = function(grunt) {
         ]
       },
       prod: {
-        template: 'client/templates/views/**/*.hbs',
+        template: 'client/pages/**/*.hbs',
         templateData: 'client/templates/views/**/*.json',
         output: 'dist/**/*.html',
         //helpers: 'client/templates/helpers/**/*.js',
@@ -257,11 +257,11 @@ module.exports = function(grunt) {
         tasks: ['jshint:dev', 'clean:scripts', 'copy:scripts']
       },
       less: {
-        files: ['client/styles/**/*.less'],
-        tasks: ['clean:styles', 'less:transpile', 'copy:styles']
+        files: ['client/pages/**/*.less', 'client/styles/**/*.less'],
+        tasks: ['clean:styles', 'less:dev']
       },
       templates: {
-        files: ['client/templates/views/**/*.hbs', 'client/templates/views/**/*.json', 'client/data/**/*.json'],
+        files: ['client/pages/**/*.hbs', 'client/pages/**/*.json', 'client/data/**/*.json', 'client/templates/**/*.hbs'],
         tasks: ['clean:templates', 'compile-handlebars:dev']
       },
       karma: {
