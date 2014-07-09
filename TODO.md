@@ -7,6 +7,9 @@ ________
 
 - clean up styles folder
 
+- less uses the last time a variable was defined
+- - means we can probably clean up the pipeline for how variables are defined (do it all at the end instead of awkwardly in the middle of bootstrap)
+
 - spacing of splash is off for mobile (content needs to be higher up)
 
 - point to joemercer.com
