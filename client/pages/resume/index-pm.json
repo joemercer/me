@@ -1,0 +1,368 @@
+
+
+{
+	"title": "Joe Mercer | Résumé",
+	"description": "Joe Mercer: Living in NYC. Working at Noom. School at the University of Waterloo. From Redmond. Tweet @jomrcr. Made by @jomrcr.",
+
+	"contact": {
+    "label": "Contact",
+    "info": {
+      "name": "Joe Mercer",
+      "tagline": "for you, for the world",
+      "description": "I study Math at the University of Waterloo, I write code for companies (Bazaarvoice, Tagged) and sometimes for myself also. Currently I live in San Francisco, but my whereabouts seem prone to changing frequently",
+
+      "email": {
+        "label": "joe.mercer@uwaterloo.ca",
+        "href": "mailto:joe.mercer@uwaterloo.ca"
+      },
+      "twitter": {
+        "label": "@jomrcr",
+        "handle": "@jomrcr",
+        "href": "https://twitter.com/jomrcr"
+      },
+      "phone": {
+        "label": "908.989.0807"
+      },
+
+      "github": {
+        "label": "github.com/joemercer",
+        "href": "https://github.com/joemercer"
+      },
+
+      "website": {
+        "label": "joemercer.com",
+        "href": "http://joemercer.com/"
+      },
+
+      "uWaterloo": {
+        "id": "20408328",
+        "program": "3A Honours Mathematics"
+      }
+    }
+  },
+
+  "summary": {
+    "label": "Summary",
+    "entries": [
+      {
+        "word": "Fearless",
+        "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice",
+      },
+      {
+        "word": "Nimble",
+        "value": "Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche",
+      },
+      {
+        "word": "Passionate",
+        "value": "Full stack JavaScript engineer and product designer with both personal and professional experience; I take ideas and turn them into reality",
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "entries": [
+      {
+        "school": {
+          "label": "University of Waterloo",
+          "href": "https://uwaterloo.ca/"
+        },
+        "location": "Waterloo, ON",
+        "degree": "Candidate for Bachelor of Mathematics",
+        "program": "Computer Science",
+        "startDate": "September, 2011",
+        "endDate": "Present",
+        "entries": [
+          {
+            "value": "University of Waterloo President's Scholarship of Distinction (awarded to students with a minimum 95% entrance average)"
+          },
+          {
+            "value": "First in Class Engineering Scholarship (while in Management Engineering)"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "entries": [
+      {
+        "position": "Software Engineer",
+        "company": {
+          "label": "Noom",
+          "href": "http://www.noom.com/"
+        },
+        "location": "New York, NY",
+        "startDate": "April, 2014",
+        "endDate": "September, 2014",
+        "entries": [
+          {
+            "value": "Participated in product brainstorms... changing company vision... for a new data visualization feature... help keep people motivated and accountable "
+          },
+          {
+            "value": "Built a prototype (MVP) of the Path feature on top of Noom's Android application"
+          },
+          {
+            "value": "Ran user tests to validate core concepts, and assumptions"
+          },
+          {
+            "value": "Helped build and launch the Path feature first on Android, then on iOS"
+          },
+          {
+            "value": "Built a website for Noom user's to visualize their data, and also to document the process of using Noom's publicly available data apis"
+          }
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "company": {
+          "label": "Tagged",
+          "href": "http://about.tagged.com/"
+        },
+        "location": "San Francisco, CA",
+        "startDate": "September, 2013",
+        "endDate": "December, 2013",
+        "tools": [
+          "JavaScript",
+          "Ember",
+          "Angular",
+          "RequireJS",
+          "jQuery",
+          "CSS",
+          "LESS",
+          "Bootstrap",
+          "FontAwesome",
+          "HTML",
+          "Handlebars",
+          "Grunt",
+          "Git"
+        ],
+        "entries": [
+          {
+            "value": "Shipped code on my first day and on my last",
+          },
+          {
+            "value": "Helped build and optimize the realtime Messaging application and Newsfeed application. (using the XMPP protocol and Strophe.js) and frontend (using Ember.js, RequireJS, Handlebars.js) currently handling over 30 million messages a month . (using AngularJS, RequireJS, RSVP.js)"
+          },
+          {
+            "value": "Maintained 95% code coverage for all shipped code. Karma and Mocha"
+          },
+          {
+            "value": "Planned the implementation strategy for the Tagged website redesign including the creation of a Tagged CSS framework (extending from Bootstrap, using LESS)
+
+            and set the groundwork
+
+            and new team structure
+
+            Conceptualized the implementation for the Tagged website redesign 
+
+            and build a CSS framework (using LESS, extending from Twitter Bootstrap) to implement the Tagged redesign (not live yet, still in beta testing)"
+          },
+          {
+            "value": "Helped conceptualize and build a CSS framework (using LESS, extending from Twitter Bootstrap) to implement the Tagged redesign (not live yet, still in beta testing)"
+          },
+          {
+            "value": "Championed the restructuring of the design team to a distributed across all the platform specific teams "
+          }
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "company": {
+          "label": "Bazaarvoice",
+          "href": "http://www.bazaarvoice.com/about/"
+        },
+        "location": "Austin, TX",
+        "startDate": "January, 2013",
+        "endDate": "May, 2013",
+        "entries": [
+          {
+            "value": "Helped build a custom MVC framework (extending from Backbone.js) to organize and manage the Bazaarvoice frontend"
+          },
+          {
+            "value": "Rewrote UI functionality to meet W3C accessibility standards (using jQuery and CSS) - a core requirement in upgrading the first top ten client"
+          },
+          {
+            "value": "Data processing service that parses the client's configuration file and makes our configuration file so that we know how to load their app Helped integrate Bazaarvoice services in a Node.js backend"
+          },
+          {
+            "value": "Implemented template precompilation (using Grunt, Node.js and Handlebars.js)"
+          },
+          {
+            "value": "Added unit tests (using Expresso and Mocha) on both the frontend and the backend"
+          }
+        ]
+      },
+      {
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default", "javascript", "front-end"],
+        "importance": 200,
+        "minEntries": 2,
+        "maxEntries": 5,
+        "position": "Undergraduate Research Assistant",
+        "company": {
+          "label": "University of Waterloo",
+          "href": "https://uwaterloo.ca/"
+        },
+        "location": "Waterloo, ON",
+        "startDate": "September, 2012",
+        "endDate": "January, 2013",
+        "entries": [
+          {
+            "value": "Conducted research in the implementation and evaluation of recommendation systems",
+            "dateAdded": "2013-09-03",
+            "lastDateUpdated": "2013-09-03",
+            "tags": ["default"],
+            "importance": 200
+          },
+          {
+            "value": "Collected and performed QFD (viability) analysis on market research for a music recommendation service",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "dateAdded": "2013-09-03",
+    "lastDateUpdated": "2013-09-03",
+    "minEntries": 1,
+    "maxEntries": 4,
+    "entries": [
+      {
+        "label": "Stachetag",
+        "href": "https://github.com/joemercer/stachetag",
+        "entries": [
+          {
+            "value": "Hacked the Twitter stream API to create the Stachetag, \"{...}\", which formats and stashes arbitrary Tweet content in MongoDB to be programmatically accessed later"
+          },
+          {
+            "value": "Stachetag is thus named because it both stashes data and looks like a mustache"
+          },
+          {
+            "value": "Wrote the application in Node.js using the Express framework and hosted it using Heroku"
+          }
+        ]
+      },
+      {
+        "label": "Golden",
+        "href": "http://joemercer.github.io/golden/",
+        "code": "https://github.com/joemercer/golden",
+        "entries": [
+          {
+            "value": "Fully documented open source CSS framework based on the Golden ratio"
+          },
+          {
+            "value": "Written in LESS and inspired by the Twitter Bootstrap architecture"
+          }
+        ]
+      },
+      {
+        "label": "iClickr",
+        "href": "http://iClickr.meteor.com/",
+        "code": "https://github.com/joemercer/iclicker",
+        "entries": [
+          {
+            "value": "Created a realtime responsive web application using the Meteor.js framework to replace the iClicker, a classroom polling tool used at the University of Waterloo"
+          },
+          {
+            "value": "Enables users to create and join groups, pose questions to their groups, and display the answers"
+          }
+        ]
+      },
+      {
+        "label": "Tag with Tags",
+        "href": "http://taggedtag.meteor.com/",
+        "code": "https://github.com/joemercer/tagged-tag",
+        "entries": [
+          {
+            "value": "Created a web application for the Tagged Hackathon that enables users to play Tag with Tags"
+          },
+          {
+            "value": "Simple gamification incentivizes users to tag each other, and the data collected can be used to analyze the relationships between users"
+          }
+        ]
+      },
+      {
+        "label": "Sweet Like The Jam",
+        "href": "http://jam-music2.s3-website-us-east-1.amazonaws.com/",
+        "code": "https://github.com/joemercer/music2",
+        "entries": [
+          {
+            "value": "Developed a music player application frontend using the Youtube and LastFM APIs in AngularJS, Meteor.js, and Backbone.js to compare their differences"
+          },
+          {
+            "value": "Developed a music recommendation engine in C# based on analyzing song metadata"
+          },
+          {
+            "value": "Created custom prediction heuristics by arranging common musical classification tags in a tree structure"
+          }
+        ]
+      }
+    ]
+  },
+  "awards": {
+    "label": "Awards",
+    "dateAdded": "2013-09-03",
+    "lastDateUpdated": "2013-09-03",
+    "tags": ["default"],
+    "importance": 1000,
+    "minEntries": 1,
+    "maxEntries": 5,
+    "entries": [
+      {
+        "text": "University of Waterloo President's Scholarship of Distinction",
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default"],
+        "importance": 200,
+        "minEntries": 1,
+        "maxEntries": 5,
+        "organization": "University of Waterloo",
+        "location": "Waterloo, ON",
+        "date": "2011",
+        "entries": [
+          {
+            "text": "Awarded to students with a minimum 95% entrance average",
+            "dateAdded": "2013-09-03",
+            "lastDateUpdated": "2013-09-03",
+            "tags": ["default"],
+            "importance": 200
+          }
+        ]
+      }
+    ]
+  },
+  "interests": {
+    "label": "Interests",
+    "entries": [
+      {
+        "label": "Stuff I did when I wasn't programming",
+        "entries": [
+          {
+            "value": "Started playing the ukulele"
+          },
+          {
+            "value": "Ran a half marathon (my time was 1:45)"
+          },
+          {
+            "value": "Tried every taco at both Torchy's and Tacodeli in Austin"
+          },
+          {
+            "value": "Backpacked across Europe (from Paris to Athens)"
+          },
+          {
+            "value": "DJ'd casual high school dances and events"
+          },
+          {
+            "value": "Played varsity basketball in high school"
+          }
+        ]
+      }
+    ]
+  }
+}
