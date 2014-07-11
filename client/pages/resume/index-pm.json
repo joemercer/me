@@ -141,7 +141,7 @@
             "value": "Helped build and launch Tagged's realtime Messaging system (build on the XMPP protocol) and Newsfeed application (libs: Strophe.js, Ember.js, RequireJS, Handlebars.js, AngularJS, RequireJS, RSVP.js) currently handling over 30 million messages a month"
           },
           {
-            "value": "Maintained 95% code coverage for all shipped code. Karma and Mocha"
+            "value": "Maintained 95% testing coverage for all shipped code. Karma and Mocha"
           },
           {
             "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a CSS framework (extending from Bootstrap) (using LESS)"
@@ -162,19 +162,16 @@
         "endDate": "May, 2013",
         "entries": [
           {
-            "value": "Helped build a custom MVC framework (extending from Backbone.js) to organize and manage the Bazaarvoice frontend"
+            "value": "Participated in daily stand ups, weekly planning, and biweekly retrospectives"
           },
           {
-            "value": "Rewrote UI functionality to meet W3C accessibility standards (using jQuery and CSS) - a core requirement in upgrading the first top ten client"
+            "value": "Improved testing coverage by adding unit tests on both the front-end and the back-end (using Mocha)"
           },
           {
-            "value": "Data processing service that parses the client's configuration file and makes our configuration file so that we know how to load their app Helped integrate Bazaarvoice services in a Node.js backend"
+            "value": "Refactored front-end UI functionality to meet W3C accessibility standards and Node back-end functionality to cleanly interact with a configuration service (using jQuery, CSS, Node) (core req in upgrading the first top ten client)"
           },
           {
-            "value": "Implemented template precompilation (using Grunt, Node.js and Handlebars.js)"
-          },
-          {
-            "value": "Added unit tests (using Expresso and Mocha) on both the frontend and the backend"
+            "value": "Contributed to Bazaarvoice's custom front-end MVC framework (extending from Backbone.js)"
           }
         ]
       },
