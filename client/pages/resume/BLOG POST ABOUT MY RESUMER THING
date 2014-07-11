@@ -28,3 +28,37 @@ section
 - rating (?) number that represents relative importance - NO
 - id (?) identifiable unique string - YES, but only for sections (unique identifier)
 - class (?) - like CSS - how is this diff from tags? - NO
+
+
+_____________
+
+Name 
+started
+
+description
+docs | code | blogPost
+
+(new style will take up less space and be more better) also will put more emphasis on the idea and less on the code (description could optionally include the stack)
+
+// things in progress
+improvements to tic tac code (Tet)
+Tassos
+
+// things i made
+Static-Seed
+Tic Tac Code
+Golden
+Waitless
+iClickr
+
+// hacky things
+Noom Data Visualization (should put a link)
+Tag with Tags
+Sweet Like The Jam
+
+// ideas in progress
+- stachetag
+- dashtag
+- teams / groups
+- LOGGING IDEA
+- RESUME TEMPLATING DATA THING IDEA
