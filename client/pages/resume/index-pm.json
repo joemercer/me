@@ -176,12 +176,6 @@
         ]
       },
       {
-        "dateAdded": "2013-09-03",
-        "lastDateUpdated": "2013-09-03",
-        "tags": ["default", "javascript", "front-end"],
-        "importance": 200,
-        "minEntries": 2,
-        "maxEntries": 5,
         "position": "Undergraduate Research Assistant",
         "company": {
           "label": "University of Waterloo",
@@ -192,18 +186,16 @@
         "endDate": "January, 2013",
         "entries": [
           {
-            "value": "Conducted research in the implementation and evaluation of recommendation systems",
-            "dateAdded": "2013-09-03",
-            "lastDateUpdated": "2013-09-03",
-            "tags": ["default"],
-            "importance": 200
+            "value": "Conducted research in the implementation and evaluation of recommendation systems"
           },
           {
-            "value": "Collected and performed QFD (viability) analysis on market research for a music recommendation service",
-            "lastDateUpdated": "2013-09-03",
-            "dateAdded": "2013-09-03",
-            "tags": ["default"],
-            "importance": 100
+            "value": "Collected research in the 
+
+             Collected market research 
+
+             Conducted
+
+            and performed QFD (viability) analysis for a music recommendation service to determine "
           }
         ]
       }
