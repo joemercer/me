@@ -96,19 +96,16 @@
         "endDate": "September, 2014",
         "entries": [
           {
-            "value": "Participated in product brainstorms... changing company vision... for a new data visualization feature... help keep people motivated and accountable "
+            "value": "Participated in product and design brainstorms for a new feature to help keep Noom users motivated and accountable to their weight loss goals"
           },
           {
-            "value": "Built a prototype (MVP) of the Path feature on top of Noom's Android application"
+            "value": "Prototyped the new feature within Noom's Android application and ran user tests to validate core concepts and leap-of-faith assumptions"
           },
           {
-            "value": "Ran user tests to validate core concepts, and assumptions"
+            "value": "Helped build and launch the feature into Noom's Android and iOS apps"
           },
           {
-            "value": "Helped build and launch the Path feature first on Android, then on iOS"
-          },
-          {
-            "value": "Built a website for Noom user's to visualize their data, and also to document the process of using Noom's publicly available data apis"
+            "value": "Documented the process of using Noom's public data APIs by building a website to help Noom users visualize their data"
           }
         ]
       },
@@ -138,10 +135,10 @@
         ],
         "entries": [
           {
-            "value": "Shipped code on my first day and on my last",
+            "value": "Helped build and optimize the realtime Messaging application and Newsfeed application. (using the XMPP protocol and Strophe.js) and frontend (using Ember.js, RequireJS, Handlebars.js) currently handling over 30 million messages a month . (using AngularJS, RequireJS, RSVP.js)"
           },
           {
-            "value": "Helped build and optimize the realtime Messaging application and Newsfeed application. (using the XMPP protocol and Strophe.js) and frontend (using Ember.js, RequireJS, Handlebars.js) currently handling over 30 million messages a month . (using AngularJS, RequireJS, RSVP.js)"
+            "value": "Shipped code on my first day and on my last",
           },
           {
             "value": "Maintained 95% code coverage for all shipped code. Karma and Mocha"
