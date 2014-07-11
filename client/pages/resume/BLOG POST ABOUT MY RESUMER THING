@@ -1,0 +1,30 @@
+BLOG POST ABOUT MY RESUMER THING
+
+basically it's just a website for data entering that results in a json file
+
+let's you specify a tree of sections and bullets 
+
+let's you select a section and add a new child section/bullet
+
+let's you define what data properties go in that section (and which are modifiable)
+
+let's you see existing section, dig into them, see all children
+
+let's you modify an existing section
+
+let's you add a section or a bullet
+
+
+section
+-> let's you define new properties on the section
+-> gives you a .children
+-> let's you define the data requires by .children
+
+
+- everything timestamps changes
+- timestamps entryDate
+- tags (which are aggregated across all previous bullets in section)
+
+- rating (?) number that represents relative importance - NO
+- id (?) identifiable unique string - YES, but only for sections (unique identifier)
+- class (?) - like CSS - how is this diff from tags? - NO
