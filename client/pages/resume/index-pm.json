@@ -135,30 +135,19 @@
         ],
         "entries": [
           {
-            "value": "Helped build and optimize the realtime Messaging application and Newsfeed application. (using the XMPP protocol and Strophe.js) and frontend (using Ember.js, RequireJS, Handlebars.js) currently handling over 30 million messages a month . (using AngularJS, RequireJS, RSVP.js)"
+            "value": "Shipped code on my first day and on my last",
           },
           {
-            "value": "Shipped code on my first day and on my last",
+            "value": "Helped build and launch Tagged's realtime Messaging system (build on the XMPP protocol) and Newsfeed application (libs: Strophe.js, Ember.js, RequireJS, Handlebars.js, AngularJS, RequireJS, RSVP.js) currently handling over 30 million messages a month"
           },
           {
             "value": "Maintained 95% code coverage for all shipped code. Karma and Mocha"
           },
           {
-            "value": "Planned the implementation strategy for the Tagged website redesign including the creation of a Tagged CSS framework (extending from Bootstrap, using LESS)
-
-            and set the groundwork
-
-            and new team structure
-
-            Conceptualized the implementation for the Tagged website redesign 
-
-            and build a CSS framework (using LESS, extending from Twitter Bootstrap) to implement the Tagged redesign (not live yet, still in beta testing)"
+            "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a CSS framework (extending from Bootstrap) (using LESS)"
           },
           {
-            "value": "Helped conceptualize and build a CSS framework (using LESS, extending from Twitter Bootstrap) to implement the Tagged redesign (not live yet, still in beta testing)"
-          },
-          {
-            "value": "Championed the restructuring of the design team to a distributed across all the platform specific teams "
+            "value": "Championed the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
           }
         ]
       },
