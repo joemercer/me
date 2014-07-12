@@ -47,20 +47,12 @@
 
     <div id="content" class="container">
 
-      <section id="contact" class="row">
-        <h1 class="name">{{contact.info.name}}</h1>
-        <a href="{{contact.info.twitter.href}}" target="_blank" class="twitter">{{contact.info.twitter.label}}</a>
-        <div class="contact-options">
-          <div class="contact-option">
-            <a href="{{contact.info.email.href}}">{{contact.info.email.label}}</a>
-          </div>
-          <div class="contact-option">
-            <a href="{{contact.info.website.href}}" target="_blank">{{contact.info.website.label}}</a>
-          </div>
-          <div class="contact-option">
-            <a href="{{contact.info.github.href}}" target="_blank">{{contact.info.github.label}}</a>
-          </div>
-        </div>
+      <section id="title" class="row">
+        <h1 class="name text-center">{{contact.info.name}}</h1>
+
+        <h5 class="text-center">
+          <a href="{{contact.info.website.href}}" target="_blank">{{contact.info.website.label}}</a>
+        </h5>
       </section>
 
       <section id="summary" class="">
@@ -150,6 +142,14 @@
             </div>
           {{/each}}
         </div>
+      </section>
+
+      <hr />
+
+      <section id="contact" class="row">
+        <h5 class="text-center">
+          Thanks for reading my résumé. If you want to get in touch <br>email <a href="{{contact.info.email.href}}">{{contact.info.email.label}}</a> or tweet <a href="{{contact.info.twitter.href}}" target="_blank">{{contact.info.twitter.label}}</a>.
+        </h5>
       </section>
 
     </div>
