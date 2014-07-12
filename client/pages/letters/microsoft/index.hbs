@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}"/>
+    <link rel="author" content="{{joe.name}}" href="{{joe.twitter.href}}"/>
+
+    <link href="../../fonts/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    {{!-- <header id="header">
+      <div class="trim-color-block yellow-back"></div>
+      <div class="trim-color-block amber-back"></div>
+      <div class="trim-color-block orange-back"></div>
+      <div class="trim-color-block sunset-back"></div>
+      <div class="trim-color-block red-back"></div>
+      <div class="trim-color-block fuchsia-back"></div>
+      <div class="trim-color-block purple-back"></div>
+      <div class="trim-color-block indigo-back"></div>
+      <div class="trim-color-block blue-back"></div>
+      <div class="trim-color-block aqua-back"></div>
+      <div class="trim-color-block green-back"></div>
+      <div class="trim-color-block lime-back"></div>
+      <div class="header container">
+        <div class="header-inner">
+          <a class="hover-img"><img src="fonts/logo.png" class="header-icon-image"/></a>
+          <a href="{{joe.github.href}}" target="_blank" class="hover-link"><i class="fa fa-github"></i></a>
+          <a href="{{joe.twitter.href}}" target="_blank" class="hover-link"><i class="fa fa-twitter"></i></a>
+        </div>
+      </div>
+    </header> --}}
+
+    <div id="content" class="container">
+
+      <section id="title" class="row">
+        <h1 class="name text-center">{{contact.info.name}}</h1>
+
+        <h5 class="text-center">
+          <a href="{{contact.info.website.href}}" target="_blank">{{contact.info.website.label}}</a>
+        </h5>
+      </section>
+
+      <hr />
+
+      <section id="letter" class="row">
+        <div class="letter golden-content">
+          <p>To whom it may concern,</p>
+
+          <p>My name is Joe Mercer and I’m a third year Mathematics student looking for my fifth internship. My first four internships were predominately software engineering roles and I have had lots of experience contributing value to large code bases for web and mobile applications. That being said, for this next internship I’m hoping to expand into a new direction of software development – product management. As I’ve become a more confident programmer I’ve realized that I consider the more interesting question to be "what do we build" rather than “how do we build it?”</p>
+
+          <p>This change of opinion has resulted in numerous small changes in my life: I read Eric Ries’ The Lean Startup and Donald Norman’s The Design of Everyday Things, I started a blog where I express the ideas that I don’t have time to make, and the ideas I do make I try to focus into cohesive products. I obviously don’t have much practice, but if you look at my personal projects keep in mind that I’m experimenting in the whole spectrum, from design to implementation.</p>
+
+          <p>22 years ago my dad graduated from the University of Waterloo and moved to Redmond to work at Microsoft. I’m 21 years old. I’ve worked in Austin, San Francisco, and New York but I grew up in Redmond, played basketball at Redmond High School, got my first job at the Redmond Pool. Coming to work for Microsoft is like coming home, and there’s a cyclical purity to that which the mathematical part of my brain finds immensely comforting.</p>
+
+          <p>Thank you for your time and consideration,</p>
+
+          <p class="text-center">Joe</p>
+        </div>
+      </section>
+
+      <section id="summary" class="">
+        {{#each summary.entries}}
+          <div class="row summary-dl">
+            <div class="col-sm-5 sidebar">
+              <h5 class="summary-dt">{{this.word}}</h5>
+            </div>
+            <div class="col-sm-19">
+              <p class="summary-dd">{{this.value}}</p>
+            </div>
+          </div>
+        {{/each}}
+      </section>
+
+      <hr />
+
+      <section id="contact" class="row">
+        <h5 class="text-center">
+          Thanks for reading my résumé. If you want to get in touch <br>email <a href="{{contact.info.email.href}}">{{contact.info.email.label}}</a> or tweet <a href="{{contact.info.twitter.href}}" target="_blank">{{contact.info.twitter.label}}</a>.
+        </h5>
+      </section>
+
+    </div>
+
+    {{!-- <footer id="footer">
+      <div class="footer container text-right">
+        <span>Made by <a href="{{joe.twitter.href}}" target="_blank">@jomrcr</a> in New York City</span>
+        <a><img src="fonts/logo.png" class="footer-icon-image scroll-to" data-scroll-target="#intro"/></a>
+      </div>
+    </footer> --}}
+
+    {{!-- <script type="text/javascript" src="js/main.js"></script> --}}
+  </body>
+</html>
