@@ -125,12 +125,8 @@
         <div class="col-sm-19">
           {{#each projects.entries}}
             <div>
-              <h4><a href="{{this.href}}" target="_blank">{{this.label}}</a></h4>
-              <ul>
-                {{#each this.entries}}
-                  <li>{{this.value}}</li>
-                {{/each}}
-              </ul>
+              <h4>{{this.label}}{{#if this.href}} | <small><a href="{{this.href}}" target="_blank">Website</a></small>{{/if}}{{#if this.code}} | <small><a href="{{this.code.href}}" target="_blank">Code</a></small>{{/if}}{{#if this.blog}} | <small><a href="{{this.blog.href}}" target="_blank">Blog</a></small>{{/if}}<br /><small>{{this.startDate}}</small></h4>
+              <p>{{this.description}}</p>
             </div>
           {{/each}}
         </div>

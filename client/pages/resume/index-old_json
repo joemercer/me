@@ -43,25 +43,49 @@
 
   "summary": {
     "label": "Summary",
+    "dateAdded": "2013-09-03",
+    "lastDateUpdated": "2013-09-03",
+    "minEntries": 1,
+    "maxEntries": 5,
     "entries": [
       {
         "word": "Fearless",
         "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice",
+        "lastDateUpdated": "2013-09-03",
+        "dateAdded": "2013-09-03",
+        "tags": ["default", "personality"],
+        "importance": 100
       },
       {
         "word": "Nimble",
         "value": "Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche",
+        "lastDateUpdated": "2013-09-03",
+        "dateAdded": "2013-09-03",
+        "tags": ["default", "personality"],
+        "importance": 100
       },
       {
         "word": "Passionate",
-        "value": "Full stack JavaScript engineer and product designer with both personal and professional experience; I take ideas and turn them into reality",
+        "value": "Full stack JavaScript engineer with both personal and professional experience; I write programs that take dreams and turn them into reality",
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default", "javascript", "front-end"],
+        "importance": 200
       }
     ]
   },
   "education": {
     "label": "Education",
+    "dateAdded": "2013-09-03",
+    "lastDateUpdated": "2013-09-03",
+    "minEntries": 1,
+    "maxEntries": 2,
     "entries": [
       {
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default", "academic"],
+        "importance": 200,
         "school": {
           "label": "University of Waterloo",
           "href": "https://uwaterloo.ca/"
@@ -76,7 +100,7 @@
             "value": "University of Waterloo President's Scholarship of Distinction (awarded to students with a minimum 95% entrance average)"
           },
           {
-            "value": "First in Class Engineering Scholarship (while in Management Engineering)"
+            "value": "First in Class Engineering Scholarship (previously in Management Engineering)"
           }
         ]
       }
@@ -84,32 +108,18 @@
   },
   "experience": {
     "label": "Experience",
+    "dateAdded": "2013-09-03",
+    "lastDateUpdated": "2013-09-03",
+    "minEntries": 1,
+    "maxEntries": 4,
     "entries": [
       {
-        "position": "Software Engineer",
-        "company": {
-          "label": "Noom",
-          "href": "http://www.noom.com/"
-        },
-        "location": "New York, NY",
-        "startDate": "April, 2014",
-        "endDate": "September, 2014",
-        "entries": [
-          {
-            "value": "Participated in product and design brainstorms for a new feature to help keep Noom users motivated and accountable to their weight loss goals"
-          },
-          {
-            "value": "Prototyped the new feature within Noom's Android application and ran user tests to validate core concepts and leap-of-faith assumptions"
-          },
-          {
-            "value": "Helped build and launch the feature into Noom's Android and iOS apps"
-          },
-          {
-            "value": "Documented the process of using Noom's public data APIs by building a website to help Noom users visualize their data"
-          }
-        ]
-      },
-      {
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default", "javascript", "front-end"],
+        "importance": 200,
+        "minEntries": 2,
+        "maxEntries": 5,
         "position": "Software Engineer",
         "company": {
           "label": "Tagged",
@@ -118,6 +128,7 @@
         "location": "San Francisco, CA",
         "startDate": "September, 2013",
         "endDate": "December, 2013",
+        "description": "Hi, my name is joe mercer and I worked at Tagged. While I was there I did some ipsum stuff and some programming. You know, all that good stuff. It was sweet.",
         "tools": [
           "JavaScript",
           "Ember",
@@ -136,22 +147,48 @@
         "entries": [
           {
             "value": "Shipped code on my first day and on my last",
+            "dateAdded": "2013-09-03",
+            "lastDateUpdated": "2013-09-03",
+            "tags": ["default", "javascript", "front-end"],
+            "importance": 200
           },
           {
-            "value": "Helped build and launch Tagged's realtime Messaging system (build on the XMPP protocol) and Newsfeed application (libs: Strophe.js, Ember.js, RequireJS, Handlebars.js, AngularJS, RequireJS, RSVP.js) currently handling over 30 million messages a month"
+            "value": "Helped build and optimize the realtime Messaging application (using the XMPP protocol and Strophe.js) and frontend (using Ember.js, RequireJS, Handlebars.js) currently handling over 30 million messages a month",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           },
           {
-            "value": "Maintained 95% testing coverage for all shipped code. Karma and Mocha"
+            "value": "Helped build and optimize the Newsfeed application (using AngularJS, RequireJS, RSVP.js)",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           },
           {
-            "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a CSS framework (extending from Bootstrap) (using LESS)"
+            "value": "Added tests (using Karma and Mocha) - 95% code coverage for all shipped code",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           },
           {
-            "value": "Championed the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
+            "value": "Helped conceptualize and build a CSS framework (using LESS, extending from Twitter Bootstrap) to implement the Tagged redesign (not live yet, still in beta testing)",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           }
         ]
       },
       {
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default", "javascript", "front-end"],
+        "importance": 200,
+        "minEntries": 2,
+        "maxEntries": 5,
         "position": "Software Engineer",
         "company": {
           "label": "Bazaarvoice",
@@ -162,20 +199,49 @@
         "endDate": "May, 2013",
         "entries": [
           {
-            "value": "Participated in daily stand ups, weekly planning, and biweekly retrospectives"
+            "value": "Helped build a custom MVC framework (extending from Backbone.js) to organize and optimize the Bazaarvoice frontend",
+            "dateAdded": "2013-09-03",
+            "lastDateUpdated": "2013-09-03",
+            "tags": ["default", "javascript", "front-end"],
+            "importance": 200
           },
           {
-            "value": "Improved testing coverage by adding unit tests on both the front-end and the back-end (using Mocha)"
+            "value": "Rewrote UI functionality to meet W3C accessibility standards (using jQuery and CSS) - a core requirement in upgrading the first top ten client",
+            "dateAdded": "2013-09-03",
+            "lastDateUpdated": "2013-09-03",
+            "tags": ["default", "javascript", "front-end"],
+            "importance": 200
           },
           {
-            "value": "Refactored front-end UI functionality to meet W3C accessibility standards and Node back-end functionality to cleanly interact with a configuration service (using jQuery, CSS, Node) (core req in upgrading the first top ten client)"
+            "value": "Helped integrate Bazaarvoice services in a Node.js backend",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           },
           {
-            "value": "Contributed to Bazaarvoice's custom front-end MVC framework (extending from Backbone.js)"
+            "value": "Implemented template precompilation (using Grunt, Node.js and Handlebars.js)",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
+          },
+          {
+            "value": "Added unit tests (using Expresso and Mocha) on both the frontend and the backend",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           }
         ]
       },
       {
+        "dateAdded": "2013-09-03",
+        "lastDateUpdated": "2013-09-03",
+        "tags": ["default", "javascript", "front-end"],
+        "importance": 200,
+        "minEntries": 2,
+        "maxEntries": 5,
         "position": "Undergraduate Research Assistant",
         "company": {
           "label": "University of Waterloo",
@@ -186,10 +252,18 @@
         "endDate": "January, 2013",
         "entries": [
           {
-            "value": "Conducted research in the implementation and evaluation of recommendation systems"
+            "value": "Conducted research in the implementation and evaluation of recommendation systems",
+            "dateAdded": "2013-09-03",
+            "lastDateUpdated": "2013-09-03",
+            "tags": ["default"],
+            "importance": 200
           },
           {
-            "value": "Collected market research to test the viability of improving recommendation systems by integrating principles from human-computer interaction"
+            "value": "Collected and performed QFD (viability) analysis on market research for a music recommendation service",
+            "lastDateUpdated": "2013-09-03",
+            "dateAdded": "2013-09-03",
+            "tags": ["default"],
+            "importance": 100
           }
         ]
       }

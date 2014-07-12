@@ -46,15 +46,15 @@
     "entries": [
       {
         "word": "Fearless",
-        "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice"
+        "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice",
       },
       {
         "word": "Nimble",
-        "value": "Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche"
+        "value": "Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche",
       },
       {
         "word": "Passionate",
-        "value": "Full stack JavaScript engineer and product designer with both personal and professional experience; I take ideas and turn them into reality"
+        "value": "Full stack JavaScript engineer and product designer with both personal and professional experience; I take ideas and turn them into reality",
       }
     ]
   },
@@ -135,7 +135,7 @@
         ],
         "entries": [
           {
-            "value": "Shipped code on my first day and on my last"
+            "value": "Shipped code on my first day and on my last",
           },
           {
             "value": "Helped build and launch Tagged's realtime Messaging system (build on the XMPP protocol) and Newsfeed application (libs: Strophe.js, Ember.js, RequireJS, Handlebars.js, AngularJS, RequireJS, RSVP.js) currently handling over 30 million messages a month"
@@ -199,51 +199,64 @@
     "label": "Projects",
     "entries": [
       {
-        "label": "Tic Tac Code!",
-        "href": "http://tictaccode.meteor.com/",
-        "startDate": "May, 2014",
-        "description": "Real time programming competition where players write scripts to control strategy in a game of tic tac toe",
+        "label": "Golden",
+        "description": "Fully documented open source CSS framework based on the Golden ratio",
+        "demo": {
+          "href": "http://joemercer.github.io/golden/"
+        },
         "code": {
-          "href": "https://github.com/joemercer/tictactoe"
-        }
-      },
-      {
-        "label": "Team Optimization",
-        "startDate": "April, 2014",
-        "description": "Using combinatorics and organizational psychology to optimize team selection and distribution",
-        "blog": {
-          "href": "http://joemercer.github.io/articles/teams-not-groups/"
-        }
-      },
-      {
-        "label": "Waitless",
-        "href": "http://waitless.meteor.com/",
-        "startDate": "February, 2014",
-        "description": "Online food ordering system",
-        "code": {
-          "href": "https://github.com/joemercer/waitless"
-        }
+          "href": "https://github.com/joemercer/golden"
+        },
+        "entries": [
+          {
+            "value": "Fully documented open source CSS framework based on the Golden ratio"
+          },
+          {
+            "value": "Written in LESS and inspired by the Twitter Bootstrap architecture"
+          }
+        ]
       },
       {
         "label": "iClickr",
         "href": "http://iClickr.meteor.com/",
-        "startDate": "January, 2014",
-        "description": "Realtime responsive classroom polling application based on the iClicker, a common (and unreasonably expensive) tool used at the University of Waterloo",
-        "code": {
-          "href": "https://github.com/joemercer/iclicker"
-        },
-        "blog": {
-          "href": "http://joemercer.github.io/articles/remaking-iclicker-with-meteor/"
-        }
+        "code": "https://github.com/joemercer/iclicker",
+        "entries": [
+          {
+            "value": "Created a realtime responsive web application using the Meteor.js framework to replace the iClicker, a classroom polling tool used at the University of Waterloo"
+          },
+          {
+            "value": "Enables users to create and join groups, pose questions to their groups, and display the answers"
+          }
+        ]
       },
       {
-        "label": "Golden",
-        "href": "http://joemercer.github.io/golden/",
-        "startDate": "December, 2013",
-        "description": "Fully documented open source CSS framework based on the Golden ratio",
-        "code": {
-          "href": "https://github.com/joemercer/golden"
-        }
+        "label": "Tag with Tags",
+        "href": "http://taggedtag.meteor.com/",
+        "code": "https://github.com/joemercer/tagged-tag",
+        "entries": [
+          {
+            "value": "Created a web application for the Tagged Hackathon that enables users to play Tag with Tags"
+          },
+          {
+            "value": "Simple gamification incentivizes users to tag each other, and the data collected can be used to analyze the relationships between users"
+          }
+        ]
+      },
+      {
+        "label": "Sweet Like The Jam",
+        "href": "http://jam-music2.s3-website-us-east-1.amazonaws.com/",
+        "code": "https://github.com/joemercer/music2",
+        "entries": [
+          {
+            "value": "Developed a music player application frontend using the Youtube and LastFM APIs in AngularJS, Meteor.js, and Backbone.js to compare their differences"
+          },
+          {
+            "value": "Developed a music recommendation engine in C# based on analyzing song metadata"
+          },
+          {
+            "value": "Created custom prediction heuristics by arranging common musical classification tags in a tree structure"
+          }
+        ]
       }
     ]
   },
