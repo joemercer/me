@@ -247,113 +247,6 @@
       }
     ]
   },
-  "ideas": {
-    "label": "Projects",
-    "entries": [
-      {
-        "label": "Stachetag",
-        "href": "https://github.com/joemercer/stachetag",
-        "entries": [
-          {
-            "value": "Hacked the Twitter stream API to create the Stachetag, \"{...}\", which formats and stashes arbitrary Tweet content in MongoDB to be programmatically accessed later"
-          },
-          {
-            "value": "Stachetag is thus named because it both stashes data and looks like a mustache"
-          },
-          {
-            "value": "Wrote the application in Node.js using the Express framework and hosted it using Heroku"
-          }
-        ]
-      },
-      {
-        "label": "Golden",
-        "href": "http://joemercer.github.io/golden/",
-        "code": "https://github.com/joemercer/golden",
-        "entries": [
-          {
-            "value": "Fully documented open source CSS framework based on the Golden ratio"
-          },
-          {
-            "value": "Written in LESS and inspired by the Twitter Bootstrap architecture"
-          }
-        ]
-      },
-      {
-        "label": "iClickr",
-        "href": "http://iClickr.meteor.com/",
-        "code": "https://github.com/joemercer/iclicker",
-        "entries": [
-          {
-            "value": "Created a realtime responsive web application using the Meteor.js framework to replace the iClicker, a classroom polling tool used at the University of Waterloo"
-          },
-          {
-            "value": "Enables users to create and join groups, pose questions to their groups, and display the answers"
-          }
-        ]
-      },
-      {
-        "label": "Tag with Tags",
-        "href": "http://taggedtag.meteor.com/",
-        "code": "https://github.com/joemercer/tagged-tag",
-        "entries": [
-          {
-            "value": "Created a web application for the Tagged Hackathon that enables users to play Tag with Tags"
-          },
-          {
-            "value": "Simple gamification incentivizes users to tag each other, and the data collected can be used to analyze the relationships between users"
-          }
-        ]
-      },
-      {
-        "label": "Sweet Like The Jam",
-        "href": "http://jam-music2.s3-website-us-east-1.amazonaws.com/",
-        "code": "https://github.com/joemercer/music2",
-        "entries": [
-          {
-            "value": "Developed a music player application frontend using the Youtube and LastFM APIs in AngularJS, Meteor.js, and Backbone.js to compare their differences"
-          },
-          {
-            "value": "Developed a music recommendation engine in C# based on analyzing song metadata"
-          },
-          {
-            "value": "Created custom prediction heuristics by arranging common musical classification tags in a tree structure"
-          }
-        ]
-      }
-    ]
-  },
-  "awards": {
-    "label": "Awards",
-    "dateAdded": "2013-09-03",
-    "lastDateUpdated": "2013-09-03",
-    "tags": ["default"],
-    "importance": 1000,
-    "minEntries": 1,
-    "maxEntries": 5,
-    "entries": [
-      {
-        "text": "University of Waterloo President's Scholarship of Distinction",
-        "dateAdded": "2013-09-03",
-        "lastDateUpdated": "2013-09-03",
-        "tags": ["default"],
-        "importance": 200,
-        "minEntries": 1,
-        "maxEntries": 5,
-        "organization": "University of Waterloo",
-        "location": "Waterloo, ON",
-        "date": "2011",
-        "entries": [
-          {
-            "text": "Awarded to students with a minimum 95% entrance average",
-            "dateAdded": "2013-09-03",
-            "lastDateUpdated": "2013-09-03",
-            "tags": ["default"],
-            "importance": 200
-          }
-        ]
-      }
-    ]
-  },
   "interests": {
     "label": "Interests",
     "entries": [
@@ -370,7 +263,7 @@
             "value": "Tried every taco at both Torchy's and Tacodeli in Austin"
           },
           {
-            "value": "Backpacked across Europe (from Paris to Athens)"
+            "value": "Backpacked across Europe from Paris to Athens"
           },
           {
             "value": "DJ'd casual high school dances and events"
