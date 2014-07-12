@@ -138,13 +138,13 @@
             "value": "Shipped code on my first day and on my last"
           },
           {
-            "value": "Helped build and launch Tagged's realtime Messaging system (build on the XMPP protocol) and Newsfeed application (libs: Strophe.js, Ember.js, RequireJS, Handlebars.js, AngularJS, RequireJS, RSVP.js) currently handling over 30 million messages a month"
+            "value": "Helped build and launch Tagged's realtime Messaging system (using the XMPP protocol and Ember.js) and Newsfeed application (using AngularJS)"
           },
           {
-            "value": "Maintained 95% testing coverage for all shipped code. Karma and Mocha"
+            "value": "Maintained 95% testing coverage for all shipped code"
           },
           {
-            "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a CSS framework (extending from Bootstrap) (using LESS)"
+            "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a LESS framework (extending from Bootstrap)"
           },
           {
             "value": "Championed the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
@@ -165,10 +165,10 @@
             "value": "Participated in daily stand ups, weekly planning, and biweekly retrospectives"
           },
           {
-            "value": "Improved testing coverage by adding unit tests on both the front-end and the back-end (using Mocha)"
+            "value": "Improved testing coverage by adding unit tests on both the front-end and the back-end"
           },
           {
-            "value": "Refactored front-end UI functionality to meet W3C accessibility standards and Node back-end functionality to cleanly interact with a configuration service (using jQuery, CSS, Node) (core req in upgrading the first top ten client)"
+            "value": "Refactored front-end UI functionality to meet W3C accessibility standards and Node back-end functionality to cleanly interact with a configuration service"
           },
           {
             "value": "Contributed to Bazaarvoice's custom front-end MVC framework (extending from Backbone.js)"
@@ -210,7 +210,7 @@
       {
         "label": "Team Optimization",
         "startDate": "April, 2014",
-        "description": "Using combinatorics and organizational psychology to optimize team selection and distribution",
+        "description": "Aid team selection and distribution using combinatorial optimization and organizational psychology",
         "blog": {
           "href": "http://joemercer.github.io/articles/teams-not-groups/"
         }
