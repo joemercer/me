@@ -44,7 +44,6 @@ module.exports = function(grunt) {
       scripts: ['public/js'],
       styles: ['public/css'],
       templates: ['public/**/*.html'],
-      img: ['public/img'],
       dev: {
         src: ['public', 'build']
       },
@@ -60,26 +59,18 @@ module.exports = function(grunt) {
           dest: 'public/js/<%= ops.name.js %>.js'
         }]
       },
-      fonts: {
+      assets: {
         files: [{
           expand: true,
-          cwd: 'client/fonts',
+          cwd: 'client/assets',
           src: '**/*',
-          dest: 'public/fonts'
+          dest: 'public'
         },
         {
           expand: true,
           cwd: 'client/requires/fontawesome/fonts',
           src: '**/*',
           dest: 'public/fonts'
-        }]
-      },
-      img: {
-        files: [{
-          expand: true,
-          cwd: 'client/img',
-          src: '**/*',
-          dest: 'public/img'
         }]
       },
       dev: {
@@ -89,41 +80,29 @@ module.exports = function(grunt) {
         },
         {
           expand: true,
-          cwd: 'client/fonts',
+          cwd: 'client/assets',
           src: '**/*',
-          dest: 'public/fonts'
+          dest: 'public'
         },
         {
           expand: true,
           cwd: 'client/requires/fontawesome/fonts',
           src: '**/*',
           dest: 'public/fonts'
-        },
-        {
-          expand: true,
-          cwd: 'client/img',
-          src: '**/*',
-          dest: 'public/img'
         }]
       },
       prod: {
         files: [{
           expand: true,
-          cwd: 'client/fonts',
+          cwd: 'client/assets',
           src: '**/*',
-          dest: 'dist/fonts'
+          dest: 'dist'
         },
         {
           expand: true,
           cwd: 'client/requires/fontawesome/fonts',
           src: '**/*',
           dest: 'dist/fonts'
-        },
-        {
-          expand: true,
-          cwd: 'client/img',
-          src: '**/*',
-          dest: 'dist/img'
         }]
       }
     },

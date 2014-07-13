@@ -1,6 +1,10 @@
 # TODO
 ________
 
+- move .ico to root
+
+- should client/assets/data/global.json not be copied to gh pages?
+
 - fix naming convention for index index.less
 
 - combine google font requests
