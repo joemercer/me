@@ -49,3 +49,6 @@ _________
 - reference: https://github.com/audreyr/favicon-cheat-sheet
 - for converting pngs to ico: http://convertico.org/Multi_Image_to_one_icon/
 - chrome needed a 256x256 to work (dunno why)
+
+## setting up dns
+http://davidensinger.com/2013/03/setting-the-dns-for-github-pages-on-namecheap/

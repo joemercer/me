@@ -8,30 +8,14 @@
     "label": "Contact",
     "info": {
       "name": "Joe Mercer",
-      "tagline": "for you, for the world",
       "description": "I study Math at the University of Waterloo, I write code for companies (Bazaarvoice, Tagged) and sometimes for myself also. Currently I live in San Francisco, but my whereabouts seem prone to changing frequently",
 
       "email": {
         "label": "joe.mercer@uwaterloo.ca",
         "href": "mailto:joe.mercer@uwaterloo.ca"
       },
-      "twitter": {
-        "label": "@jomrcr",
-        "handle": "@jomrcr",
-        "href": "https://twitter.com/jomrcr"
-      },
       "phone": {
         "label": "908.989.0807"
-      },
-
-      "github": {
-        "label": "github.com/joemercer",
-        "href": "https://github.com/joemercer"
-      },
-
-      "website": {
-        "label": "joemercer.com",
-        "href": "http://joemercer.github.io/me/"
       },
 
       "uWaterloo": {

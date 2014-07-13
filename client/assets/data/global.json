@@ -2,9 +2,13 @@
 	"joe": {
 		"name": "Joe Mercer",
     "email": "jomrcr@gmail.com",
-    "website": "http://www.joemercer.com/",
+    "website": {
+      "label": "joemercer.com",
+      "href": "http://www.joemercer.com/"
+    },
 		"twitter": {
       "label": "@jomrcr",
+      "handle": "@jomrcr",
       "href": "https://twitter.com/jomrcr"
     },
     "github": {
