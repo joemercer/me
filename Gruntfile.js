@@ -197,7 +197,7 @@ module.exports = function(grunt) {
         //helpers: 'client/templates/helpers/**/*.js',
         //partials: 'client/templates/partials/**/*.hbs',
         globals: [
-          'client/data/global.json'
+          'client/assets/data/global.json'
         ]
       },
       prod: {
@@ -207,7 +207,7 @@ module.exports = function(grunt) {
         //helpers: 'client/templates/helpers/**/*.js',
         //partials: 'client/templates/partials/**/*.hbs',
         globals: [
-          'client/data/global.json'
+          'client/assets/data/global.json'
         ]
       }
     },
