@@ -323,9 +323,21 @@ module.exports = function(grunt) {
     // puts dist directory in a gh-pages branch and pushes to origin remote
     'gh-pages': {
       options: {
-        base: 'dist'
       },
-      src: ['**']
+      'gh-pages': {
+        options: {
+          base: 'dist'
+        },
+        src: ['**/*']
+      },
+      'gh-user-page': {
+        options: {
+          base: 'dist',
+          branch: 'master',
+          repo: 'https://example.com/other/repo.git'
+        },
+        src: ['**/*']
+      }
     }
 
   });
