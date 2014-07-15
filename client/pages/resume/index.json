@@ -80,13 +80,13 @@
         "endDate": "September, 2014",
         "entries": [
           {
-            "value": "Participated in product and design brainstorms for a new feature to help keep Noom users motivated and accountable to their weight loss goals"
+            "value": "Participated in product and design brainstorms for a new feature called Path to help keep Noom users motivated and accountable to their weight loss goals"
           },
           {
-            "value": "Prototyped the new feature within Noom's Android application and ran user tests to validate core concepts and leap-of-faith assumptions"
+            "value": "Prototyped Path within Noom's Android application and ran user tests to validate core concepts and leap-of-faith assumptions"
           },
           {
-            "value": "Helped build and launch the feature into Noom's Android and iOS apps"
+            "value": "Helped build and launch Path into Noom's Android and iOS apps"
           },
           {
             "value": "Documented the process of using Noom's public data APIs by building a website to help Noom users visualize their data"
@@ -131,7 +131,7 @@
             "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a LESS framework (extending from Bootstrap)"
           },
           {
-            "value": "Championed the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
+            "value": "Initiated the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
           }
         ]
       },
@@ -194,7 +194,7 @@
       {
         "label": "Team Optimization",
         "startDate": "April, 2014",
-        "description": "Aid team selection and distribution using combinatorial optimization and organizational psychology",
+        "description": "Team selection and distribution using combinatorial optimization and organizational psychology",
         "blog": {
           "href": "http://joemercer.github.io/articles/teams-not-groups/"
         }
@@ -203,10 +203,15 @@
         "label": "Waitless",
         "href": "http://waitless.meteor.com/",
         "startDate": "February, 2014",
-        "description": "Online food ordering system",
+        "description": "Online food ordering system created for the 2014 Facebook Hackathon",
         "code": {
           "href": "https://github.com/joemercer/waitless"
-        }
+        },
+        "entries": [
+          {
+            "value": "Scoped product requirements and managed a team of four to meet a 24 hour deadline"
+          }
+        ]
       },
       {
         "label": "iClickr",
