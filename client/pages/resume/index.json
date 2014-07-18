@@ -192,11 +192,11 @@
         }
       },
       {
-        "label": "Team Optimization",
+        "label": "Team Selection Optimization",
         "startDate": "April, 2014",
         "description": "Team selection and distribution using combinatorial optimization and organizational psychology",
         "blog": {
-          "href": "http://joemercer.github.io/articles/teams-not-groups/"
+          "href": "http://jomrcr.svbtle.com/teaming-up"
         }
       },
       {
