@@ -212,4 +212,13 @@ $(function(){
 		});
 	});
 
+	var $title = $('.intro-title-header-link');
+	var prevI = 8;
+	window.setInterval(function(){
+		$title.removeClass(colors[prevI]);
+		var i = Math.floor(11.1111111 * Math.random());
+		prevI = i;
+		$title.addClass(colors[i]);
+	}, 1000);
+
 });

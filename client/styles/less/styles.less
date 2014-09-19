@@ -10,7 +10,7 @@
 .hover-img {
 	opacity: .3;
 
-	.transition(opacity .5s ease-in-out);
+	.transition(opacity .5s cubic-bezier(0.165,0.630,0.140,0.820));
 
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -29,7 +29,7 @@
 .hover-link {
 	color: #BEBEBE;
 
-	.transition(color .5s ease-in-out);
+	.transition(color .5s cubic-bezier(0.165,0.630,0.140,0.820));
 
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -397,6 +397,12 @@ a {
 		a {
 			font-size: 90px; font-size: 9rem;
 		}
+	}
+	.intro-title-header-link {
+		.transition(color 1s ease-in-out);
+
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 }
 
