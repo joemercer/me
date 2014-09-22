@@ -205,6 +205,7 @@ $(function(){
 	}, 1000);
 
 	var $links = $('.hover-link');
+	var $imgs = $('.hover-img');
 
 	// if is mobile
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
@@ -216,6 +217,7 @@ $(function(){
 				var i = Math.floor(11.1111111 * Math.random());
 				$el.addClass(colors[i]);
 			});
+			$imgs.addClass('hover-img-activated');
 		});
 
 		$window.mouseup(function(e){
@@ -227,6 +229,7 @@ $(function(){
 					}
 				});
 			});
+			$imgs.removeClass('hover-img-activated');
 		});
 	}
 	else {
