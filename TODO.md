@@ -16,22 +16,6 @@ ________
 
 - spacing of splash is off for mobile (content needs to be higher up)
 
-- point to joemercer.com
-- figure out DNS stuff
-
-- set up google analytics (and add to static-seed)
-
-- take down old joemercer.github.io site (and point it to this site?)
-- - it's confusing to have two personal websites
-
-- take off hover-img effect until we have Pics section
-- hover effects don't happen on mobile so implement some way of seeing the effect
-- - like the horizontal effect takes place line
-
-- don't really like the font on the slow scroll links
-- don't really like the effect on the slow scroll links
-
-- don't like how big footer is
 
 # Backlog
 ___________
