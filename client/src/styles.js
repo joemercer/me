@@ -211,7 +211,7 @@ $(function(){
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 		$('body').addClass('mobile');
 
-		$window.mousedown(function(e){
+		$window.on('touchstart', function(e){
 			$links.each(function(index, el){
 				var $el = $(el);
 				var i = Math.floor(11.1111111 * Math.random());
@@ -220,7 +220,7 @@ $(function(){
 			$imgs.addClass('hover-img-activated');
 		});
 
-		$window.mouseup(function(e){
+		$window.on('touchend', function(e){
 			$links.each(function(index, el){
 				var $el = $(el);
 				_($el.attr('class').split(/\s+/)).forEach(function(i){
