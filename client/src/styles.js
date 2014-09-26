@@ -4,13 +4,6 @@ var _ = require('lodash');
 // # Rotate Effect
 // ________________
 
-$.fn.rotate = function(degrees) {
-		$(this).css({'-webkit-transform' : 'rotate('+ degrees +'deg)',
-									'-moz-transform' : 'rotate('+ degrees +'deg)',
-									'-ms-transform' : 'rotate('+ degrees +'deg)',
-									'transform' : 'rotate('+ degrees +'deg)'});
-};
-
 $(function(){
 	'use strict';
 
@@ -152,20 +145,10 @@ $(function(){
 		Nav.maybeFixNav();
 	});
 
-	// ## Toggle the nav open and closed
+	// // ## Toggle the nav open and closed
 
-	var rotateForwardAmount = 360 * 4;
-	var rotateBackwardAmount = -1 * rotateForwardAmount;
-	var rotateOffset = 0;
 	$('.toggle-nav').click(function(e){
 		var addedNav = Nav.toggleNav();
-		if (addedNav) {
-			rotateOffset += (rotateForwardAmount);
-		}
-		else {
-			rotateOffset += (rotateBackwardAmount);
-		}
-		$(this).rotate(rotateOffset);
 	});
 
 	// # Slow scroll on Nav links
