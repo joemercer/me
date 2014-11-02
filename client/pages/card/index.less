@@ -82,21 +82,22 @@ body {
 	background-color: @golden-gray-lighter;
 
 	#business-card-title {
-		display: inline;
-		position: absolute;
-	  left: 50%;
-	  top: 50%;
-	  transform: translate(-50%, -50%);
+		position: relative;
 
-		margin: 0px;
+	  top: 48%;
+	  transform: translate(0%, -48%);
 
 		font-size: 1px * @density * @business-card-font-size; font-size: .1rem * @density * @business-card-font-size;
 		line-height: 1px * @density * @business-card-icon-size; line-height: .1rem * @density * @business-card-icon-size;
 		h1 {
 			display: inline;
-			margin-right: 1px * @density * @business-card-icon-space; margin-right: .1rem * @density * @business-card-icon-space;
+			margin-left: 1px * @density * @business-card-icon-space; margin-left: .1rem * @density * @business-card-icon-space;
 			font-size: 1px * @density * @business-card-font-size; font-size: .1rem * @density * @business-card-font-size;
 			font-weight: normal;
+		}
+
+		a {
+			margin-right: 2px * @density * @business-card-icon-space; margin-right: .1rem * @density * @business-card-icon-space;
 		}
 
 	}
@@ -104,7 +105,6 @@ body {
 	.logo-small {
 		height: 1px * @density * @business-card-icon-size; line-height: .1rem * @density * @business-card-icon-size;
 		margin-top: 0px;
-		margin-right: 1px * @density * @business-card-icon-space; margin-right: .1rem * @density * @business-card-icon-space;
 		opacity: .77;
 	}
 
