@@ -2,13 +2,13 @@
 
 {
 	"title": "Joe Mercer | Résumé",
-	"description": "Joe Mercer: Living in NYC. Working at Noom. School at the University of Waterloo. From Redmond. Tweet @jomrcr. Made by @jomrcr.",
+	"description": "Joe Mercer: Living in NYC. Working at Microsoft. School at the University of Waterloo. From Redmond. Tweet @jomrcr. Made by @jomrcr.",
 
 	"contact": {
     "label": "Contact",
     "info": {
       "name": "Joe Mercer",
-      "description": "I study Math at the University of Waterloo, I write code for companies (Bazaarvoice, Tagged) and sometimes for myself also. Currently I live in San Francisco, but my whereabouts seem prone to changing frequently",
+      "description": "I study Mathematics at the University of Waterloo, I write code for companies (Bazaarvoice, Tagged, Noom) and sometimes for myself also. Currently I live in Seattle, but my whereabouts seem prone to changing frequently.",
 
       "email": {
         "label": "joe.mercer@uwaterloo.ca",
@@ -30,15 +30,15 @@
     "entries": [
       {
         "word": "Fearless",
-        "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice"
+        "value": "Persistent problem-solver willing to tackle intimidating problems by exploring new and creative solutions"
       },
       {
         "word": "Nimble",
-        "value": "Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche"
+        "value": "Energetic learner keen to experiment and quick to adapt in ever-changing technical environments"
       },
       {
         "word": "Passionate",
-        "value": "Full stack JavaScript engineer and product designer with both personal and professional experience; I take ideas and turn them into reality"
+        "value": "Diligent engineer and empathic designer with both personal and professional experience"
       }
     ]
   },
@@ -52,15 +52,15 @@
         },
         "location": "Waterloo, ON",
         "degree": "Candidate for Bachelor of Mathematics",
-        "program": "Computer Science",
+        "program": "Combinatorics and Optimization with minors in Pure Mathematics and Statistics",
         "startDate": "September, 2011",
         "endDate": "Present",
         "entries": [
           {
-            "value": "University of Waterloo President's Scholarship of Distinction (awarded to students with a minimum 95% entrance average)"
+            "value": "First in Class Engineering Scholarship (while in Management Engineering)"
           },
           {
-            "value": "First in Class Engineering Scholarship (while in Management Engineering)"
+            "value": "International Experience Award (while <a href=\"https://uwaterloo.ca/math/people-profiles/joe-mercer\" target=\"_blank\">studying abroad in Hong Kong</a>)"
           }
         ]
       }
@@ -69,6 +69,24 @@
   "experience": {
     "label": "Experience",
     "entries": [
+      {
+        "position": "Program Manager",
+        "company": {
+          "label": "Microsoft",
+          "href": "http://www.microsoft.com/en-us/default.aspx"
+        },
+        "location": "Redmond, WA",
+        "startDate": "January, 2015",
+        "endDate": "April, 2015",
+        "entries": [
+          {
+            "value": "Worked on the <a href=\"http://www.xbox.com/en-US/\" target=\"_blank\">Xbox Live</a> <b>Services team</b> to help plan and design new features for the Activity Feed: Youtube videos, web links, and custom images"
+          },
+          {
+            "value": "Conducted customer research to determine how Community Managers could best be integrated in the Activity Feed"
+          }
+        ]
+      },
       {
         "position": "Software Engineer",
         "company": {
@@ -80,16 +98,13 @@
         "endDate": "September, 2014",
         "entries": [
           {
-            "value": "Participated in product and design brainstorms for a new feature called Path to help keep Noom users motivated and accountable to their weight loss goals"
+            "value": "Worked on the <b>Android team</b> to improve user experience, in particular by creating better data visualizations"
           },
           {
-            "value": "Prototyped Path within Noom's Android application and ran user tests to validate core concepts and leap-of-faith assumptions"
+            "value": "Prototyped a new AI \"coach\", and helped run user tests to validate core assumptions"
           },
           {
-            "value": "Helped build and launch Path into Noom's Android and iOS apps"
-          },
-          {
-            "value": "Documented the process of using Noom's public data APIs by building a website to help Noom users visualize their data"
+            "value": "The result of this prototyping was the Coaches feature, which mixes AI with real-life coaches to provide the best guidance possible"
           }
         ]
       },
@@ -119,19 +134,13 @@
         ],
         "entries": [
           {
+            "value": "Worked on the <b>Web team</b> building Tagged's realtime Messaging system (using the XMPP protocol and Ember) and Newsfeed application (using Angular)"
+          },
+          {
             "value": "Shipped code on my first day and on my last"
           },
           {
-            "value": "Helped build and launch Tagged's realtime Messaging system (using the XMPP protocol and Ember.js) and Newsfeed application (using AngularJS)"
-          },
-          {
             "value": "Maintained 95% testing coverage for all shipped code"
-          },
-          {
-            "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a LESS framework (extending from Bootstrap)"
-          },
-          {
-            "value": "Initiated the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
           }
         ]
       },
@@ -145,18 +154,6 @@
         "startDate": "January, 2013",
         "endDate": "May, 2013",
         "entries": [
-          {
-            "value": "Participated in daily stand ups, weekly planning, and biweekly retrospectives"
-          },
-          {
-            "value": "Improved testing coverage by adding unit tests on both the front-end and the back-end"
-          },
-          {
-            "value": "Refactored front-end UI functionality to meet W3C accessibility standards and Node back-end functionality to cleanly interact with a configuration service"
-          },
-          {
-            "value": "Contributed to Bazaarvoice's custom front-end MVC framework (extending from Backbone.js)"
-          }
         ]
       },
       {
@@ -169,12 +166,6 @@
         "startDate": "September, 2012",
         "endDate": "January, 2013",
         "entries": [
-          {
-            "value": "Conducted research in the implementation and evaluation of recommendation systems"
-          },
-          {
-            "value": "Collected market research to test the viability of improving recommendation systems by integrating principles from human-computer interaction"
-          }
         ]
       }
     ]
@@ -183,46 +174,37 @@
     "label": "Projects",
     "entries": [
       {
-        "label": "Tic Tac Code!",
-        "href": "http://tictaccode.meteor.com/",
-        "startDate": "May, 2014",
-        "description": "Real time programming competition where players write scripts to control strategy in a game of tic tac toe",
-        "code": {
-          "href": "https://github.com/joemercer/tictactoe"
+        "label": "Team Selection",
+        "startDate": "May, 2015",
+        "description": "Improving UWaterloo Residence's system for matching roommates as part of a Management Engineering 4th year design project.",
+        "blog": {
+          "href": "http://jomrcr.svbtle.com/team-selection-2"
         }
       },
       {
-        "label": "Team Selection Optimization",
-        "startDate": "April, 2014",
-        "description": "Team selection and distribution using combinatorial optimization and organizational psychology",
-        "blog": {
-          "href": "http://jomrcr.svbtle.com/teaming-up"
+        "label": "Btn",
+        "href": "http://btn.meteor.com/",
+        "startDate": "April, 2015",
+        "description": "Push people's buttons. Create and publish your own buttons! Written in Meteor with best practices.",
+        "code": {
+          "href": "https://github.com/joemercer/btn"
+        }
+      },
+      {
+        "label": "Static-Seed",
+        "startDate": "June, 2014",
+        "description": "Open source boilerplate for setting up a static website. Used to create my website!",
+        "code": {
+          "href": "https://github.com/joemercer/static-seed"
         }
       },
       {
         "label": "Waitless",
         "href": "http://waitless.meteor.com/",
         "startDate": "February, 2014",
-        "description": "Online food ordering system created for the 2014 Facebook Hackathon",
+        "description": "Prototype for an online food ordering system (created for the 2014 Facebook Hackathon).",
         "code": {
           "href": "https://github.com/joemercer/waitless"
-        },
-        "entries": [
-          {
-            "value": "Scoped product requirements and managed a team of four to meet a 24 hour deadline"
-          }
-        ]
-      },
-      {
-        "label": "iClickr",
-        "href": "http://iClickr.meteor.com/",
-        "startDate": "January, 2014",
-        "description": "Realtime responsive classroom polling application based on the iClicker, a common (and unreasonably expensive) tool used at the University of Waterloo",
-        "code": {
-          "href": "https://github.com/joemercer/iclicker"
-        },
-        "blog": {
-          "href": "http://joemercer.github.io/articles/remaking-iclicker-with-meteor/"
         }
       },
       {
@@ -237,30 +219,40 @@
     ]
   },
   "interests": {
-    "label": "Interests",
+    "label": "Living",
     "entries": [
       {
-        "label": "Stuff I did when I wasn't programming",
-        "entries": [
-          {
-            "value": "Started playing the ukulele"
-          },
-          {
-            "value": "Ran a half marathon (my time was 1:45)"
-          },
-          {
-            "value": "Tried every taco at both Torchy's and Tacodeli in Austin"
-          },
-          {
-            "value": "Backpacked across Europe from Paris to Athens"
-          },
-          {
-            "value": "DJ'd casual high school dances and events"
-          },
-          {
-            "value": "Played varsity basketball in high school"
-          }
-        ]
+        "value": "Rocked out with Alt-j at <large class=\"large\">Coachella '15</large>."
+      },
+      {
+        "value": "Ate at the <a href=\"http://www.theworlds50best.com/list/1-50-winners/amber\" target=\"_blank\">24th best restaurant</a> in the world."
+      },
+      {
+        "value": "Protested for democracy at the <large class=\"large\">#UmbrellaRevolution</large>."
+      },
+      {
+        "value": "Studied abroad in <large class=\"large\">Hong Kong</large>."
+      },
+      {
+        "value": "Learned to play I'm Yours (among others) on the <large class=\"large\">ukulele</large>."
+      },
+      {
+        "value": "Chilled on the highline in NYC."
+      },
+      {
+        "value": "Ran a <large class=\"large\">half marathon</large> (my time was 1:45)."
+      },
+      {
+        "value": "Saw Nate Silver speak at <large class=\"large\">SXSW '13</large>."
+      },
+      {
+        "value": "Backpacked from <large class=\"large\">Paris</large> to Athens."
+      },
+      {
+        "value": "Started for my high school varsity <large class=\"large\">basketball</large> team."
+      },
+      {
+        "value": "Shook hands with President Obama at a rally in '10."
       }
     ]
   }

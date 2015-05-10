@@ -1,0 +1,267 @@
+
+
+{
+	"title": "Joe Mercer | Résumé",
+	"description": "Joe Mercer: Living in NYC. Working at Noom. School at the University of Waterloo. From Redmond. Tweet @jomrcr. Made by @jomrcr.",
+
+	"contact": {
+    "label": "Contact",
+    "info": {
+      "name": "Joe Mercer",
+      "description": "I study Math at the University of Waterloo, I write code for companies (Bazaarvoice, Tagged) and sometimes for myself also. Currently I live in San Francisco, but my whereabouts seem prone to changing frequently",
+
+      "email": {
+        "label": "joe.mercer@uwaterloo.ca",
+        "href": "mailto:joe.mercer@uwaterloo.ca"
+      },
+      "phone": {
+        "label": "908.989.0807"
+      },
+
+      "uWaterloo": {
+        "id": "20408328",
+        "program": "3A Honours Mathematics"
+      }
+    }
+  },
+
+  "summary": {
+    "label": "Summary",
+    "entries": [
+      {
+        "word": "Fearless",
+        "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice"
+      },
+      {
+        "word": "Nimble",
+        "value": "Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche"
+      },
+      {
+        "word": "Passionate",
+        "value": "Full stack JavaScript engineer and product designer with both personal and professional experience; I take ideas and turn them into reality"
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "entries": [
+      {
+        "school": {
+          "label": "University of Waterloo",
+          "href": "https://uwaterloo.ca/"
+        },
+        "location": "Waterloo, ON",
+        "degree": "Candidate for Bachelor of Mathematics",
+        "program": "Computer Science",
+        "startDate": "September, 2011",
+        "endDate": "Present",
+        "entries": [
+          {
+            "value": "University of Waterloo President's Scholarship of Distinction (awarded to students with a minimum 95% entrance average)"
+          },
+          {
+            "value": "First in Class Engineering Scholarship (while in Management Engineering)"
+          }
+        ]
+      }
+    ]
+  },
+  "experience": {
+    "label": "Experience",
+    "entries": [
+      {
+        "position": "Software Engineer",
+        "company": {
+          "label": "Noom",
+          "href": "http://www.noom.com/"
+        },
+        "location": "New York, NY",
+        "startDate": "April, 2014",
+        "endDate": "September, 2014",
+        "entries": [
+          {
+            "value": "Participated in product and design brainstorms for a new feature called Path to help keep Noom users motivated and accountable to their weight loss goals"
+          },
+          {
+            "value": "Prototyped Path within Noom's Android application and ran user tests to validate core concepts and leap-of-faith assumptions"
+          },
+          {
+            "value": "Helped build and launch Path into Noom's Android and iOS apps"
+          },
+          {
+            "value": "Documented the process of using Noom's public data APIs by building a website to help Noom users visualize their data"
+          }
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "company": {
+          "label": "Tagged",
+          "href": "http://about.tagged.com/"
+        },
+        "location": "San Francisco, CA",
+        "startDate": "September, 2013",
+        "endDate": "December, 2013",
+        "tools": [
+          "JavaScript",
+          "Ember",
+          "Angular",
+          "RequireJS",
+          "jQuery",
+          "CSS",
+          "LESS",
+          "Bootstrap",
+          "FontAwesome",
+          "HTML",
+          "Handlebars",
+          "Grunt",
+          "Git"
+        ],
+        "entries": [
+          {
+            "value": "Shipped code on my first day and on my last"
+          },
+          {
+            "value": "Helped build and launch Tagged's realtime Messaging system (using the XMPP protocol and Ember.js) and Newsfeed application (using AngularJS)"
+          },
+          {
+            "value": "Maintained 95% testing coverage for all shipped code"
+          },
+          {
+            "value": "Planned the implementation strategy for the Tagged.com redesign including the refactor of baseline styles and common components into a LESS framework (extending from Bootstrap)"
+          },
+          {
+            "value": "Initiated the restructure of the design team to a distributed model that better integrates with engineering to improve implementation consistency and allow for greater design re-use"
+          }
+        ]
+      },
+      {
+        "position": "Software Engineer",
+        "company": {
+          "label": "Bazaarvoice",
+          "href": "http://www.bazaarvoice.com/about/"
+        },
+        "location": "Austin, TX",
+        "startDate": "January, 2013",
+        "endDate": "May, 2013",
+        "entries": [
+          {
+            "value": "Participated in daily stand ups, weekly planning, and biweekly retrospectives"
+          },
+          {
+            "value": "Improved testing coverage by adding unit tests on both the front-end and the back-end"
+          },
+          {
+            "value": "Refactored front-end UI functionality to meet W3C accessibility standards and Node back-end functionality to cleanly interact with a configuration service"
+          },
+          {
+            "value": "Contributed to Bazaarvoice's custom front-end MVC framework (extending from Backbone.js)"
+          }
+        ]
+      },
+      {
+        "position": "Undergraduate Research Assistant",
+        "company": {
+          "label": "University of Waterloo",
+          "href": "https://uwaterloo.ca/"
+        },
+        "location": "Waterloo, ON",
+        "startDate": "September, 2012",
+        "endDate": "January, 2013",
+        "entries": [
+          {
+            "value": "Conducted research in the implementation and evaluation of recommendation systems"
+          },
+          {
+            "value": "Collected market research to test the viability of improving recommendation systems by integrating principles from human-computer interaction"
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "label": "Projects",
+    "entries": [
+      {
+        "label": "Tic Tac Code!",
+        "href": "http://tictaccode.meteor.com/",
+        "startDate": "May, 2014",
+        "description": "Real time programming competition where players write scripts to control strategy in a game of tic tac toe",
+        "code": {
+          "href": "https://github.com/joemercer/tictactoe"
+        }
+      },
+      {
+        "label": "Team Selection Optimization",
+        "startDate": "April, 2014",
+        "description": "Team selection and distribution using combinatorial optimization and organizational psychology",
+        "blog": {
+          "href": "http://jomrcr.svbtle.com/teaming-up"
+        }
+      },
+      {
+        "label": "Waitless",
+        "href": "http://waitless.meteor.com/",
+        "startDate": "February, 2014",
+        "description": "Online food ordering system created for the 2014 Facebook Hackathon",
+        "code": {
+          "href": "https://github.com/joemercer/waitless"
+        },
+        "entries": [
+          {
+            "value": "Scoped product requirements and managed a team of four to meet a 24 hour deadline"
+          }
+        ]
+      },
+      {
+        "label": "iClickr",
+        "href": "http://iClickr.meteor.com/",
+        "startDate": "January, 2014",
+        "description": "Realtime responsive classroom polling application based on the iClicker, a common (and unreasonably expensive) tool used at the University of Waterloo",
+        "code": {
+          "href": "https://github.com/joemercer/iclicker"
+        },
+        "blog": {
+          "href": "http://joemercer.github.io/articles/remaking-iclicker-with-meteor/"
+        }
+      },
+      {
+        "label": "Golden",
+        "href": "http://joemercer.github.io/golden/",
+        "startDate": "December, 2013",
+        "description": "Fully documented open source CSS framework based on the Golden ratio",
+        "code": {
+          "href": "https://github.com/joemercer/golden"
+        }
+      }
+    ]
+  },
+  "interests": {
+    "label": "Interests",
+    "entries": [
+      {
+        "label": "Stuff I did when I wasn't programming",
+        "entries": [
+          {
+            "value": "Started playing the ukulele"
+          },
+          {
+            "value": "Ran a half marathon (my time was 1:45)"
+          },
+          {
+            "value": "Tried every taco at both Torchy's and Tacodeli in Austin"
+          },
+          {
+            "value": "Backpacked across Europe from Paris to Athens"
+          },
+          {
+            "value": "DJ'd casual high school dances and events"
+          },
+          {
+            "value": "Played varsity basketball in high school"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -77,10 +77,10 @@
         <div class="col-sm-19">
           {{#each education.entries}}
             <div>
-              <h4>{{this.degree}}, <a href="{{this.school.href}}" target="_blank">{{this.school.label}}</a><br /><small>{{this.startDate}} - {{this.endDate}} | {{this.location}}</small></h4>
+              <h4>{{this.degree}}, <a href="{{this.school.href}}" target="_blank">{{this.school.label}}</a><br /><small>{{this.startDate}} - {{this.endDate}} | {{this.location}}</small></h4></h4>
               <ul>
                 {{#each this.entries}}
-                  <li>{{this.value}}</li>
+                  <li>{{{this.value}}}</li>
                 {{/each}}
               </ul>
             </div>
@@ -100,7 +100,7 @@
               <h4>{{this.position}}, <a href="{{this.company.href}}" target="_blank">{{this.company.label}}</a><br /><small>{{this.startDate}} - {{this.endDate}} | {{this.location}}</small></h4>
               <ul>
                 {{#each this.entries}}
-                  <li>{{this.value}}</li>
+                  <li>{{{this.value}}}</li>
                 {{/each}}
               </ul>
             </div>
@@ -115,19 +115,37 @@
           <h3>{{projects.label}}</h3>
         </div>
         <div class="col-sm-19">
-          {{#each projects.entries}}
-            <div>
-              <h4>{{this.label}}{{#if this.href}} | <small><a href="{{this.href}}" target="_blank">Website</a></small>{{/if}}{{#if this.code}} | <small><a href="{{this.code.href}}" target="_blank">Code</a></small>{{/if}}{{#if this.blog}} | <small><a href="{{this.blog.href}}" target="_blank">Blog</a></small>{{/if}}<br /><small>{{this.startDate}}</small></h4>
-              <p>{{this.description}}</p>
-              {{#if this.entries}}
-                <ul>
-                  {{#each this.entries}}
-                    <li>{{this.value}}</li>
-                  {{/each}}
-                </ul>
-              {{/if}}
-            </div>
-          {{/each}}
+
+          <p class="inline" style="margin-top: 12.5px;"><large class="large">Team Selection</large> <small class="small">(<a href="http://jomrcr.svbtle.com/team-selection-2" target="_blank">Blog</a>)</small> - Improving UWaterloo's system for matching roommates as part of a Management Engineering 4th year design project.</p>
+
+          <p class="inline"><large class="large">Btn</large> <small class="small">(<a href="http://btn.meteor.com/" target="_blank">Demo</a> | <a href="https://github.com/joemercer/btn" target="_blank">Code</a>)</small> - Push people's buttons. Create and publish your own buttons! Written in Meteor with best practices.</p>
+
+          <p class="inline"><large class="large">Static-Seed</large> <small class="small">(<a href="https://github.com/joemercer/static-seed" target="_blank">Code</a>)</small> - Open source boilerplate for setting up a static website. Used to create my website (and this résumé).</p>
+
+          <p class="inline"><large class="large">Waitless</large> <small class="small">(<a href="http://waitless.meteor.com/" target="_blank">Demo</a> | <a href="https://github.com/joemercer/waitless" target="_blank">Code</a>)</small> - Prototype for an online coffee ordering system (created for the 2014 Facebook Hackathon).</p>
+
+          <p class="inline"><large class="large">Golden</large> <small class="small">(<a href="http://joemercer.github.io/golden/" target="_blank">Demo</a> | <a href="https://github.com/joemercer/golden" target="_blank">Code</a>)</small> - Fully documented open source CSS framework based on the Golden ratio.</p>
+
+
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="reading" class="row">
+        <div class="col-sm-5 sidebar">
+          <h3>Reading</h3>
+        </div>
+        <div class="col-sm-19">
+          <p class="inline" style="margin-top:12.5px;">
+            <large class="large">Startups: </large> The Lean Startup, The Innovator's Solution, Lean Analytics. 
+
+            <large class="large">Manufacturing: </large> The Toyota Way, The Toyota Way Fieldbook, High Output Management. 
+
+            <large class="large">Design: </large> The Design of Everyday Things. The Power of Habit. 
+
+            <large class="large">Marketing: </large> Made To Stick.
+          </p>
         </div>
       </section>
 
@@ -135,20 +153,14 @@
 
       <section id="interests" class="row">
         <div class="col-sm-5 sidebar">
-          <h3>{{interests.label}}</h3>
+          <h3>Living</h3>
         </div>
         <div class="col-sm-19">
-          {{#each interests.entries}}
-            <div>
-              <h4>{{this.label}}</h4>
-              <ul>
-                {{#each this.entries}}
-                  <li>{{this.value}}</li>
-                {{/each}}
-              </ul>
-            </div>
-          {{/each}}
-        </div>
+          <p class="inline" style="margin-top: 12.5px;">
+            {{#each interests.entries}}
+              {{{this.value}}}
+            {{/each}}
+          </p>
       </section>
 
       <hr />

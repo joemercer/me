@@ -1,0 +1,98 @@
+"position": "Program Manager",
+        "company": {
+          "label": "Microsoft",
+          "href": "http://www.microsoft.com/en-us/default.aspx"
+        },
+        "location": "Redmond, WA",
+        "startDate": "January, 2015",
+        "endDate": "April, 2015",
+        "entries": [
+          {
+            "value": "Helped plan and design new features as part of the Xbox Live Social Services Team"
+          },
+          {
+            "value": "Helped align the Activity Feed behind metric defined goals"
+          },
+          {
+            "value": "Conducted customer research to validate the Community driven direction of the Activity Feed, a centerpiece of social gaming on Xbox One"
+          },
+          {
+            "value": "Investigated new features for the Activity Feed: Youtube videos, web links, and custom images"
+          }
+        ]
+
+        
+
+
+
+{
+  "word": "Bold",
+  "value": "Open minded problem solver willing to tackle intimidating problems by exploring new and creative solutions; fond of adventure, be it in thought or practice"
+},
+{
+  "word": "Nimble",
+  "value": "
+
+  Energetic learner quick to make connections between abstract concepts and keen to expand in both breadth and depth; highly adaptable in ever changing technical environments, quick to strike at new opportunities, and adept at finding a niche"
+},
+{
+  "word": "Persistent",
+  "value": "Battle-tested engineer with experience in both web and mobile app development
+
+  I never give up"
+}
+
+
+
+Fearless - creative, innovative, problem-solver
+Nimble - smart, quick-learner, want to learn + adaptable
+Passionate - work hard, persistent, interested in the work
+
+
+Energetic learner
+
+adept at finding a niche
+- good at making myself useful
+
+
+willing to tackle intimidating problems by exploring new and creative solutions
+
+fond of adventure
+
+highly adaptable in ever changing technical environments
+
+keen to expand in both breadth and depth
+- wants to learn
+
+quick to strike at new opportunities
+
+Javascript developer with professional and personal experience
+
+
+hard-working developer and empathic designer
+- persistent
+
+Dilegent developer and empathic designer with both personal and professional experience
+
+
+
+
+Fearless
+Open-minded [persistent] engineer [problem-solver] willing to tackle intimidating problems by exploring new and creative solutions
+
+Nimble
+Energetic learner keen to experiment and quick to adapt in ever-changing technical environments 
+
+Passionate
+Diligent developer and empathic designer with both personal and professional experience
+
+
+
+Fond of adventure, quick to strike at new opportunities, and adept at finding a niche
+- relentlessly reflective
+
+- I think the quick to strike at new opportunities sounds bad (like I'm flighty)
+- keen to experiment sounds flighty also
+- Open-minded vs innovative?
+- Persistent? Hard worker? 
+
