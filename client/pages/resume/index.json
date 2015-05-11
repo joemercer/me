@@ -11,8 +11,8 @@
       "description": "I study Mathematics at the University of Waterloo, I write code for companies (Bazaarvoice, Tagged, Noom) and sometimes for myself also. Currently I live in Seattle, but my whereabouts seem prone to changing frequently.",
 
       "email": {
-        "label": "joe.mercer@uwaterloo.ca",
-        "href": "mailto:joe.mercer@uwaterloo.ca"
+        "label": "jomrcr@gmail.com",
+        "href": "mailto:jomrcr@gmail.com"
       },
       "phone": {
         "label": "908.989.0807"
@@ -231,16 +231,10 @@
         "value": "Protested for democracy at the <large class=\"large\">#UmbrellaRevolution</large>."
       },
       {
-        "value": "Studied abroad in <large class=\"large\">Hong Kong</large>."
-      },
-      {
         "value": "Learned to play I'm Yours (among others) on the <large class=\"large\">ukulele</large>."
       },
       {
-        "value": "Chilled on the highline in NYC."
-      },
-      {
-        "value": "Ran a <large class=\"large\">half marathon</large> (my time was 1:45)."
+        "value": "Ran a <large class=\"large\">half-marathon</large> (my time was 1:45)."
       },
       {
         "value": "Saw Nate Silver speak at <large class=\"large\">SXSW '13</large>."
@@ -250,9 +244,6 @@
       },
       {
         "value": "Started for my high school varsity <large class=\"large\">basketball</large> team."
-      },
-      {
-        "value": "Shook hands with President Obama at a rally in '10."
       }
     ]
   }
